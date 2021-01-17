@@ -1,4 +1,4 @@
-
+import Barra_nav from '../components/barra_nav'
 import Enero from '../components/enero_2021'
 import Febrero from '../components/febrero_2021'
 import Marzo from '../components/marzo_2021'
@@ -11,23 +11,27 @@ import Septiembre from '../components/septiembre_2021'
 import Octubre from '../components/octubre_2021'
 import Noviembre from '../components/noviembre_2021'
 import Diciembre from '../components/diciembre_2021'
+import Footer from '../components/footer'
 
 export default function Home() {
   return (
-    <div>
-      <h1>horarios pph</h1>
-      <Enero />
-      <Febrero />
-      <Marzo />
-      <Abril />
-      <Mayo />
-      <Junio />
-      <Julio />
-      <Agosto />
-      <Septiembre />
-      <Octubre />
-      <Noviembre />
-      <Diciembre />
-    </div>
+    <>
+      <Barra_nav />
+      <div>
+        <Enero />
+        <Febrero />
+        <Marzo />
+        <Abril />
+        <Mayo />
+        <Junio />
+        <Julio />
+        <Agosto />
+        <Septiembre />
+        <Octubre />
+        <Noviembre />
+        <Diciembre />
+      </div>
+      <Footer />
+    </>
   )
 }

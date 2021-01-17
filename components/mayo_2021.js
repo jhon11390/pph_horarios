@@ -53,6 +53,7 @@ const Cal_frame = styled.div`
 `
 const Curr = styled.table`
   float: left;
+  background-color: white;
 `
 
 const Days_number = styled.td`
@@ -89,12 +90,12 @@ const Mayo = () => {
       <Cal_frame>
         <Curr> 
           <tbody> 
-            <tr><Days_number></Days_number><Days_number></Days_number><Days_number></Days_number><Days_number></Days_number><Days_number></Days_number><Days_number></Days_number><Days_number>1</Days_number></tr> 
-            <tr><Days_number>2</Days_number><Days_number>3</Days_number><Days_number>4</Days_number><Days_number>5</Days_number><Days_number>6</Days_number><Days_number>7</Days_number><Days_number>8</Days_number></tr> 
-            <tr><Days_number>9</Days_number><Days_number>10</Days_number><Days_number>11</Days_number><Days_number>12</Days_number><Days_number>13</Days_number><Days_number>14</Days_number><Days_number>15</Days_number></tr> 
-            <tr><Days_number>16</Days_number><Days_number>17</Days_number><Days_number>18</Days_number><Days_number>19</Days_number><Days_number>20</Days_number><Days_number>21</Days_number><Days_number>22</Days_number></tr> 
-            <tr><Days_number>23</Days_number><Days_number>24</Days_number><Days_number>25</Days_number><Days_number>26</Days_number><Days_number>27</Days_number><Days_number>28</Days_number><Days_number>29</Days_number></tr>
-            <tr><Days_number>30</Days_number><Days_number>31</Days_number></tr>
+            <tr><Days_number></Days_number><Days_number></Days_number><Days_number></Days_number><Days_number></Days_number><Days_number></Days_number><Days_number></Days_number><Days_number style={{border: '2px solid red'}}>1</Days_number></tr> 
+            <tr><Days_number style={{border: '2px solid red'}}>2</Days_number><Days_number>3</Days_number><Days_number>4</Days_number><Days_number>5</Days_number><Days_number>6</Days_number><Days_number>7</Days_number><Days_number>8</Days_number></tr> 
+            <tr><Days_number style={{border: '2px solid red'}}>9</Days_number><Days_number>10</Days_number><Days_number>11</Days_number><Days_number>12</Days_number><Days_number>13</Days_number><Days_number>14</Days_number><Days_number>15</Days_number></tr> 
+            <tr><Days_number style={{border: '2px solid red'}}>16</Days_number><Days_number style={{border: '2px solid red'}}>17</Days_number><Days_number>18</Days_number><Days_number>19</Days_number><Days_number>20</Days_number><Days_number>21</Days_number><Days_number>22</Days_number></tr> 
+            <tr><Days_number style={{border: '2px solid red'}}>23</Days_number><Days_number>24</Days_number><Days_number>25</Days_number><Days_number>26</Days_number><Days_number>27</Days_number><Days_number>28</Days_number><Days_number>29</Days_number></tr>
+            <tr><Days_number style={{border: '2px solid red'}}>30</Days_number><Days_number>31</Days_number></tr>
           </tbody> 
         </Curr>
       </Cal_frame>
