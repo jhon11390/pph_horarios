@@ -49,7 +49,8 @@ const Days = styled.td`
 const Cal_frame = styled.div`
   background:#ededed; 
   color:#8c8c8c; 
-  box-shadow:1px 1px 0px #fff inset; 
+  box-shadow:1px 1px 0px #fff inset;
+ 
 `
 const Curr = styled.table`
   float: left;
@@ -90,11 +91,11 @@ const Noviembre = () => {
       <Cal_frame>
         <Curr> 
           <tbody> 
-            <tr><Days_number></Days_number><Days_number></Days_number><Days_number></Days_number><Days_number>1</Days_number><Days_number>2</Days_number><Days_number>3</Days_number><Days_number>4</Days_number></tr> 
-            <tr><Days_number style={{border: '2px solid red'}}>5</Days_number><Days_number>6</Days_number><Days_number>7</Days_number><Days_number style={{border: '2px solid red'}}>8</Days_number><Days_number>9</Days_number><Days_number>10</Days_number><Days_number>11</Days_number></tr> 
-            <tr><Days_number style={{border: '2px solid red'}}>12</Days_number><Days_number>13</Days_number><Days_number>14</Days_number><Days_number>15</Days_number><Days_number>16</Days_number><Days_number>17</Days_number><Days_number>18</Days_number></tr> 
-            <tr><Days_number style={{border: '2px solid red'}}>19</Days_number><Days_number>20</Days_number><Days_number>21</Days_number><Days_number>22</Days_number><Days_number>23</Days_number><Days_number>24</Days_number><Days_number style={{border: '2px solid red'}}>25</Days_number></tr> 
-            <tr><Days_number style={{border: '2px solid red'}}>26</Days_number><Days_number>27</Days_number><Days_number>28</Days_number><Days_number>29</Days_number><Days_number>30</Days_number><Days_number>31</Days_number><Days_number></Days_number></tr>
+            <tr><Days_number></Days_number><Days_number></Days_number><Days_number></Days_number><Days_number style={{backgroundColor: 'yellowgreen'}}>1</Days_number><Days_number style={{backgroundColor: 'yellowgreen'}}>2</Days_number><Days_number style={{backgroundColor: 'yellow'}}>3</Days_number><Days_number style={{backgroundColor: 'yellow'}}>4</Days_number></tr> 
+            <tr><Days_number style={{border: '2px solid red', backgroundColor: 'pink'}}>5</Days_number><Days_number style={{backgroundColor: 'pink'}}>6</Days_number><Days_number style={{backgroundColor: 'yellowgreen'}}>7</Days_number><Days_number style={{border: '2px solid red', backgroundColor: 'yellowgreen'}}>8</Days_number><Days_number style={{backgroundColor: 'yellow'}}>9</Days_number><Days_number style={{backgroundColor: 'yellow'}}>10</Days_number><Days_number style={{backgroundColor: 'pink'}}>11</Days_number></tr> 
+            <tr><Days_number style={{border: '2px solid red', backgroundColor: 'pink'}}>12</Days_number><Days_number style={{backgroundColor: 'yellowgreen'}}>13</Days_number><Days_number style={{backgroundColor: 'yellowgreen'}}>14</Days_number><Days_number style={{backgroundColor: 'yellow'}}>15</Days_number><Days_number style={{backgroundColor: 'yellow'}}>16</Days_number><Days_number style={{backgroundColor: 'pink'}}>17</Days_number><Days_number style={{backgroundColor: 'pink'}}>18</Days_number></tr> 
+            <tr><Days_number style={{border: '2px solid red', backgroundColor: 'yellowgreen'}}>19</Days_number><Days_number style={{backgroundColor: 'yellowgreen'}}>20</Days_number><Days_number style={{backgroundColor: 'yellow'}}>21</Days_number><Days_number style={{backgroundColor: 'yellow'}}>22</Days_number><Days_number style={{backgroundColor: 'pink'}}>23</Days_number><Days_number style={{backgroundColor: 'pink'}}>24</Days_number><Days_number style={{border: '2px solid red', backgroundColor: 'yellowgreen'}}>25</Days_number></tr> 
+            <tr><Days_number style={{border: '2px solid red', backgroundColor: 'yellowgreen'}}>26</Days_number><Days_number style={{backgroundColor: 'yellow'}}>27</Days_number><Days_number style={{backgroundColor: 'yellow'}}>28</Days_number><Days_number style={{backgroundColor: 'pink'}}>29</Days_number><Days_number style={{backgroundColor: 'pink'}}>30</Days_number><Days_number style={{backgroundColor: 'yellowgreen'}}>31</Days_number><Days_number></Days_number></tr>
           </tbody> 
         </Curr>
       </Cal_frame>
