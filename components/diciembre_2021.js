@@ -8,6 +8,7 @@ const Cal = styled.div`
   margin:50px auto; 
   font: 13px/1.5 "Helvetica Neue", Helvatica, Arial, san-serif; 
   display:table;
+  margin-bottom: 100px;
 `
 
 const Header_cal = styled.div`
@@ -31,6 +32,7 @@ const Title_month = styled.h3`
 
 const Table_days = styled.table`
   background:#fff; 
+  font-weight: 1000;
 `
 
 const Days = styled.td`
@@ -50,11 +52,11 @@ const Cal_frame = styled.div`
   background:#ededed; 
   color:#8c8c8c; 
   box-shadow:1px 1px 0px #fff inset;
- 
 `
 const Curr = styled.table`
   float: left;
   background-color: white;
+  font-weight: 1000;
 `
 
 const Days_number = styled.td`

@@ -31,6 +31,7 @@ const Title_month = styled.h3`
 
 const Table_days = styled.table`
   background:#fff; 
+  font-weight: 1000;
 `
 
 const Days = styled.td`
@@ -54,6 +55,7 @@ const Cal_frame = styled.div`
 const Curr = styled.table`
   float: left;
   background-color: white;
+  font-weight: 1000;
 `
 
 const Days_number = styled.td`
