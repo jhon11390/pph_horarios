@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import Barra_nav from '../components/barra_nav'
 import Enero from '../components/enero_2021'
 import Febrero from '../components/febrero_2021'
@@ -14,9 +15,12 @@ import Diciembre from '../components/diciembre_2021'
 import Footer from '../components/footer'
 
 export default function Home() {
+
+  const [dato, saveDato ] = useState('');
+
   return (
     <>
-      <Barra_nav />
+      <Barra_nav saveDato = {saveDato}/>
       <div>
         <Enero />
         <Febrero />
@@ -31,7 +35,7 @@ export default function Home() {
         <Noviembre />
         <Diciembre />
       </div>
-      <Footer />
+      <Footer dato={dato}/>
     </>
   )
 }

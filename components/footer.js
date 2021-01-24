@@ -44,8 +44,9 @@ const Colors_turnos3 = styled.div`
   align-items: center;
 `
 
-const Footer = () => {
-  const prueba = ""
+const Footer = ({dato}) => {
+  
+  const prueba = dato
   const days = [];
   if(prueba==="Miguel Martin"){
     days.push("Noche")
@@ -65,7 +66,7 @@ const Footer = () => {
     days.push("0")
   }
 
-  console.log(days)
+  
   return ( 
     <Footer_pages>
       <Colors_turnos>{days[0]}</Colors_turnos>

@@ -19,14 +19,14 @@ const Title = styled.h3`
 `
 const SelectGurda = styled.select`
   font-weight: 1000;
-  width: 40%;
+  width: 50%;
 `
 
-const Barra_nav = () => {
-  const [addrtype, setAddrtype] = useState(["Miguel Martin", "Jhon Ortega", "Jose Matoma"])
+const Barra_nav = ({saveDato}) => {
+  const [addrtype, setAddrtype] = useState(["Seleccione su nombre","Miguel Martin", "Jhon Ortega", "Jose Matoma"])
   const Add = addrtype.map(Add => Add
   )
-  const handleAddrTypeChange = (e) => console.log((addrtype[e.target.value]))
+  const handleAddrTypeChange = (e) => saveDato(((addrtype[e.target.value])))
 
   return ( 
     <Nav_barra>
